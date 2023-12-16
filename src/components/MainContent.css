@@ -1,0 +1,18 @@
+.Hero {
+    display: flex;
+    align-items: center;
+    /* background-color: #f2f2f2; */
+    padding: 10px;
+}
+
+.right-side {
+    width: 50%;
+    justify-content: center;
+    object-fit: contain;
+    align-items: center;
+}
+.left-side {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
