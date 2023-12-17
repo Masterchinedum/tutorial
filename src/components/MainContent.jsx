@@ -1,5 +1,5 @@
-import './MainContent.css';
-import elder from './images/elder.png'
+
+import elder from './images/elder.png';
 
 export default function MainContent() {
     return (
