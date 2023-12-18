@@ -15,21 +15,20 @@ root.render(
     <Navbar />;
     <MainContent />
     <ReactFact />
-    <Footer />
     <div className='Businesscard'>
     <Card
       name="John Doe"
       photo= {jonathan}
       role= "Frontend Developer"
       website= "https://jonathan.com"
-      email="https://www.w3schools.com"
+      email="mailto:example@gmail.com"
       phone="+234 123 4567"
       github="https://github.com/johndoe"
       linkedin="https://linkedin.com/in/johndoe"
       twitter="https://twitter.com/johndoe"
     />
     </div>
-
+    <Footer />
   </div>
 );
 

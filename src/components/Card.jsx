@@ -32,9 +32,9 @@ function Card(props) {
             </button>
           </a>
         </div>
-
-        <p className="card-email">{email}</p>
-        <p className="card-phone">{phone}</p>
+        <h3>
+          about
+        </h3>
       </div>
       <div className="card-footer">
         <a href={github} className="card-icon">
