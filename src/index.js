@@ -22,7 +22,7 @@ root.render(
       photo= {jonathan}
       role= "Frontend Developer"
       website= "https://jonathan.com"
-      email="john@example.com"
+      email="https://www.w3schools.com"
       phone="+234 123 4567"
       github="https://github.com/johndoe"
       linkedin="https://linkedin.com/in/johndoe"

@@ -18,10 +18,21 @@ function Card(props) {
         <h1 className="card-name">{name}</h1>
         <p className="card-role"> {role} </p>
         <p className="card-website"> {website} </p>
-        <button className="btn btn-email">
-        <FontAwesomeIcon icon={faEnvelope} className="icon" />
-        Email
-      </button>
+        <div className='btn-container'>
+          <a href= {email}>
+            <button className="btn btn-email">
+              <FontAwesomeIcon icon={faEnvelope} className="icon" />
+              Email
+            </button>
+          </a>
+          <a href= {linkedin}>
+            <button className="btn btn-linkedin">
+              <FontAwesomeIcon icon={faLinkedin} className="icon" />
+              Linkedin
+            </button>
+          </a>
+        </div>
+
         <p className="card-email">{email}</p>
         <p className="card-phone">{phone}</p>
       </div>

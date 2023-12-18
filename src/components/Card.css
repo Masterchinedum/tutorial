@@ -59,6 +59,32 @@
     font-family: Inter;
     font-size: 10.24px;
   }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  .btn{
+    background-color: #ffffff;
+    border-radius: 2px;
+    border: none;
+    padding: 9px 25px;
+    font-family: Inter;
+    margin: 7px;
+    cursor: pointer;
+    color: #374151;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .btn-linkedin {
+    background-color: #0077B5;
+    color: #ffffff;
+  }
+
+  .btn > .icon {
+    padding-right: 8px;
+  }
   
   .card-email,
   .card-phone {
