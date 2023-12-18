@@ -22,10 +22,13 @@ root.render(
       role= "Frontend Developer"
       website= "https://jonathan.com"
       email="mailto:example@gmail.com"
-      phone="+234 123 4567"
       github="https://github.com/johndoe"
       linkedin="https://linkedin.com/in/johndoe"
       twitter="https://twitter.com/johndoe"
+      facebook = "https://facebook.com/johndoe"
+      instagram = "https://instagram.com/johndoe"
+      about = "I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn."
+      interests = "Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic."
     />
     </div>
     <Footer />
