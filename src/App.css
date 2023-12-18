@@ -158,3 +158,10 @@ li::marker {
     color: #61DAFB;
     font-size: 1.4rem;
 }
+
+.Businesscard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }

@@ -2,11 +2,7 @@ import React from 'react';
 import './Card.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faFacebook } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faTwitter, faFacebook, faInstagram, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function Card(props) {
   // destructure the props object
