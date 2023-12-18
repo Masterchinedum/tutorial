@@ -102,19 +102,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
     border-radius: 0px 0px 10px 10px;
     background-color: #161619;
+    width: 100%;
   }
   
   .card-icon {
-    margin: 0 10px;
-    font-size: 1.5rem;
-    color: #3498db;
-    transition: color 0.3s ease-in-out;
-  
-    &:hover {
-      color: #e74c3c;
+    font-size: 25px;
+    padding: 20px 24px;
+    color: #918E9B;
     }
-  }
   

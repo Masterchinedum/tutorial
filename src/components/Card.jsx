@@ -49,7 +49,7 @@ function Card(props) {
         <FontAwesomeIcon icon={faTwitter} className="footericon" />
         </a>
         <a href={facebook} className="card-icon">
-        <FontAwesomeIcon icon={faFacebook} className="footericon" />
+        <FontAwesomeIcon icon={faFacebook} className= "footericon" />
         </a>
         <a href={instagram} className="card-icon">
           <FontAwesomeIcon icon={faInstagram} className="footericon" />
