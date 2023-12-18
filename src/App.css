@@ -104,7 +104,7 @@ footer {
 
 }
 .reactfactmain {
-    padding: 27px;
+    padding: 57px 27px;
 }
 .namelogo{
     display: flex;
@@ -125,4 +125,13 @@ footer {
     width: 29px;
     height: 29px;
 
+}
+.linksContainer {
+    color: #DEEBF8;
+    text-align: right;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
