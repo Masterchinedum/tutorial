@@ -1,6 +1,5 @@
 import React from 'react';
 import reactjsicon from "./images/reactjs-icon.png";
-import reacthalf from "./images/Group.png";
 
 const ReactFact = () => {
   return (

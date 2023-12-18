@@ -1,0 +1,87 @@
+/* Card.css */
+
+.card {
+    width: 317px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 44px 117px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #23252C;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  
+  .card-header {
+    text-align: center;
+    padding: 0px;
+    background-color: #ffffff;
+    height: 317px;
+  }
+  
+  .card-photo {
+    width: 100%;
+    object-fit: cover;
+    margin: 0px;
+  }
+  
+  .card-name {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    margin: 0px;
+  }
+  
+  .card-body {
+    padding: 21px 0px 0px 0px;
+    background-color: #1A1B21;
+    width: 100%;
+  }
+  .card-role {
+    color: #F3BF99;
+    text-align: center;
+    font-family: Inter;
+    font-size: 13px;
+    margin: 7px;
+  }
+  .card-website{
+    color: #F5F5F5;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10.24px;
+  }
+  
+  .card-email,
+  .card-phone {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #ecf0f1;
+  }
+  
+  .card-icon {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #3498db;
+    transition: color 0.3s ease-in-out;
+  
+    &:hover {
+      color: #e74c3c;
+    }
+  }
+  

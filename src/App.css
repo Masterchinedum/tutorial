@@ -105,6 +105,9 @@ footer {
 }
 .reactfactmain {
     padding: 57px 27px;
+    background-image: url('./components/images/Group.png');
+    background-repeat: no-repeat;
+    background-position: right 75%;
 }
 .namelogo{
     display: flex;
@@ -134,4 +137,24 @@ footer {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+.reactfactmain > h2 {
+    color: #FFF;
+    font-size: 39.06px;
+    margin: 0px;
+    font-weight: 700;
+    letter-spacing: -1.953px;
+}
+
+li {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    padding-bottom: 20px;
+    max-width: 400px;
+}
+
+li::marker {
+    color: #61DAFB;
+    font-size: 1.4rem;
 }
