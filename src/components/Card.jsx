@@ -13,9 +13,15 @@ function Card(props) {
         <img src={photo} alt={name} className="card-photo" />
       </div>
       <div className="card-body">
+        {name && (
         <h1 className="card-name">{name}</h1>
+        )}
+        {role && (
         <p className="card-role">{role}</p>
+        )}
+        {website && (
         <p className="card-website">{website}</p>
+        )}
         <div className='btn-container'>
           {email && (
             <a href={email}>
@@ -34,8 +40,11 @@ function Card(props) {
             </a>
           )}
         </div>
+        {about && ( <>
         <h3 className='detail'>About</h3>
         <p className='card-text'>{about}</p>
+        </>
+        )};
         {interests && (
           <>
             <h3 className='detail'>Interests</h3>
