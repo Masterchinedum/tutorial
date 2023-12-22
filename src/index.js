@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import reportWebVitals from './reportWebVitals';
 import ReactFact from './components/ReactFact';
 import Card from './components/Card';
+import Card2 from './components/Card2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -46,7 +47,7 @@ root.render(
       about = "I am a Backend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn."
       interests = "Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic."
     />
-    <Card
+    <Card2
       name="James Hilthon"
       photo= {James}
       role= "Graphics design"
@@ -60,7 +61,7 @@ root.render(
       about = "I am a passionate graphics designer with an unwavering love for visual storytelling. My canvas is the digital realm, where pixels dance to create captivating designs. Whether it’s crafting sleek logos, illustrating whimsical characters, or designing user-friendly interfaces, I thrive on turning ideas into eye-catching realities."
 
     />
-    <Card
+    <Card2
       name="Mathew David"
       photo= {mathew}
       role= "Product Designer"

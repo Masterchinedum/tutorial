@@ -44,6 +44,17 @@
   background-color: #1A1B21;
   width: 100%;
 }
+
+.card-body2 {
+  padding: 21px 0px ;
+  background-color: white;
+  width: 100%;
+}
+.card-body2 > .detail , .card-body2 > .card-name{
+  color: #2B283A;
+}
+
+
 .card-role {
   color: #F3BF99;
   text-align: center;
@@ -70,6 +81,8 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
+  box-shadow: 0px 1px 3px #1A1B21;
+  
 }
 
 .btn-linkedin {
@@ -96,6 +109,9 @@
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
+}
+.card-body2 > .card-text {
+  color: #4A4E74;
 }
 
 .card-footer {
